@@ -74,6 +74,9 @@
               <li><a href="https://wa.link/x16n22"><i class="fa-solid fa-chevron-right mt-2 mb-2" style="color: #ffffff;"></i>
                 <i class="fa-brands fa-whatsapp fa-xl" style="color: #3b8e25;"></i>
               </li>
+              <li><a href="https://wa.link/x16n22"><i class="fa-solid fa-chevron-right mt-2 mb-2" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-whatsapp fa-xl" style="color: #3b8e25;"></i>
+              </li>
             </ul>
           </div>
         </div>
