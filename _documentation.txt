@@ -1,0 +1,80 @@
+Restaurant Management System:
+
+techologies used:
+HTML, CSS, js, mysql, mongodb, node.js,bootstrap, skelton framework
+
+
+database: restraunt table: menus
+Requirements:
+1-should have an apealing and pleasing apearence.
+2-should be able to book a table and take orders from customer side and notify admin.
+3.should be able to book quick table and take a quick order. 
+4-should be able to take contacts detail from customer while ordering
+4-shold be able to cusomize order and increase and decrease quantity accordingly.
+5.should be able to process payment if possible.
+6.should be able to take feedbacks such as complaints and admiration.
+
+
+
+
+1-Home page:
+
+Features:
+Admin side:
+2-should be well designed.
+1-admin can edit photos and special dish of the day.
+customer side:
+
+1-dish of the day: one or two special dishes will be shown everyday for 
+representation of restaurant or for quick orders by customer side. dish of the day feature comes 
+with "order now" button and will redirect customer to the "order review page" for customization and
+qunatity and for confiming order.
+
+2-Menu page:
+admin side:
+1-admin can edit menu, which dish should be added, which is availabe and which should be deleted.
+
+
+menu page file structure:
+menu page mainly based on 4 files 
+1-dbconn_menu.js
+2-api.js
+3-menu.html
+4-menu_script.js
+
+menu page working:
+factors to be consideres
+-add to cart functionality
+-booking table
+-ordering food
+-customization and quantity checking
+-placing order
+-confirming order
+-confirming order by admin side
+-payment page
+
+working
+-dbconn.js connects the database called "resraunt" with front end menu.html page..
+-when user hits the plus or minus button, it adds or substrcts the items in cart and
+pop up message of "added successfully!" is shown and when user is done with his order,
+he will hit the "review order" button to review or customize his order. after customaztion
+and quantity checking he will redirected to fill the customers detail page. after 
+filling up the detail he will be redirected to place order page by  hitting place order button,
+then he will be redirected to the payment page through hitting check out button, and then
+will hit the confirm order button to confirm his order. after confirming his order
+pop message will be shown "waitiing for restraunt to confirm..".
+-after confirming order by admin side messege will be shown "your order has been confirmed"
+
+logs:
+-25 sun 2023: adding items with quantity is now working in console
+-adding items with quantity and price 
+-bring them on frontend
+-send all calculated data in database
+-retrive data from database as "review order" in review order order page
+-after review order next will be confirm order.
+-confirm order button will take user to the payment gateway.
+
+functionality needs to be done:
+order now button
+payment gateway
+navbar in all pages

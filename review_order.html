@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>your orders</title>
+<!-- bootsrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+<!-- fontawsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body class="d-flex flex-column h-100 container">
+  
+
+<h1>your order..</h1>
+
+<i class="fa fa-cart-plus fa-4x" aria-hidden="true"></i>
+
+
+<table class="table table-striped table-hover text-center">
+<thead>
+<th>Dish</th>
+<th>Price</th>
+<th>Quantity</th>
+<th>Total</th>
+</thead>
+<tbody id="tbody">
+</tbody>
+
+<tfoot>
+</tfoot>
+</table>
+
+</body>
+<script src="cart_script.js"></script>
+
+<script>
+getData();
+</script>
+</html>
